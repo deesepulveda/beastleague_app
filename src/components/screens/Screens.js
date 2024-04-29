@@ -20,12 +20,24 @@ const Screens = ({ darkMode, onDarkMode }) => {
     >
       <MultiBar />
       <Routes>
-        <Route path="/home" element={<ScreensHome darkMode={darkMode} />} />
-        <Route path="/" element={<ScreensScores darkMode={darkMode} />} />
-        <Route path="/news" element={<ScreensNews darkMode={darkMode} />} />
-        <Route path="/play" element={<ScreensPlay darkMode={darkMode} />} />
         <Route
-          path="/settings"
+          path="/beastleague_app/home"
+          element={<ScreensHome darkMode={darkMode} />}
+        />
+        <Route
+          path="/beastleague_app/"
+          element={<ScreensScores darkMode={darkMode} />}
+        />
+        <Route
+          path="/beastleague_app/news"
+          element={<ScreensNews darkMode={darkMode} />}
+        />
+        <Route
+          path="/beastleague_app/play"
+          element={<ScreensPlay darkMode={darkMode} />}
+        />
+        <Route
+          path="/beastleague_app/settings"
           element={
             <ScreensSettings darkMode={darkMode} onDarkMode={onDarkMode} />
           }
