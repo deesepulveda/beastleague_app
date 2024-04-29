@@ -1,0 +1,74 @@
+/* .screens_scores_container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+} */
+
+.score_card_container {
+  width: 100%;
+  height: auto;
+  padding: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.score_card_box {
+  width: 100%;
+  height: 10rem;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.score_card_box_inner_content {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+}
+
+.box_shadow_light {
+  box-shadow: 0.2rem 0.2rem 0.5rem #1a1a1a8b;
+}
+
+.box_shadow_dark {
+  box-shadow: 0.2rem 0.2rem 0.5rem #080808ac;
+}
+
+@media only screen and (min-width: 768px) {
+  .score_card_container {
+    padding: 1rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: flex-start;
+  }
+
+  .score_card_box {
+    width: calc(100% / 2);
+    height: 15rem;
+  }
+
+  .score_card_5box_inner_content {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .score_card_box {
+    width: calc(100% / 3);
+    height: 25rem;
+  }
+}
