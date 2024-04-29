@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8ad1a287.css",
+    "main.js": "/static/js/main.8b68cfd1.js",
+    "static/media/user_icon.png": "/static/media/user_icon.83db0ea8c00bed107ddb.png",
+    "static/media/home_icon_dark.png": "/static/media/home_icon_dark.ff11c1735eff10bc9c82.png",
+    "static/media/news_icon_dark.png": "/static/media/news_icon_dark.0bbae1d9b77b116ed9b1.png",
+    "static/media/scores_icon_dark.png": "/static/media/scores_icon_dark.4875fa01ed61172712f6.png",
+    "static/media/play_icon_dark.png": "/static/media/play_icon_dark.66a7883043a4e01d075b.png",
+    "static/media/news_icon.png": "/static/media/news_icon.c8eb482f02a98681f89f.png",
+    "static/media/play_icon.png": "/static/media/play_icon.63dc5bae22d25a924015.png",
+    "static/media/home_icon.png": "/static/media/home_icon.a598dd725efd473e2bb8.png",
+    "static/media/settings_icon_dark.png": "/static/media/settings_icon_dark.f5c40802bb45e4d4e95a.png",
+    "static/media/scores_icon.png": "/static/media/scores_icon.94388333666327a8cf12.png",
+    "static/media/settings_icon.png": "/static/media/settings_icon.d9633ef00090e76a5753.png",
+    "index.html": "/index.html",
+    "main.8ad1a287.css.map": "/static/css/main.8ad1a287.css.map",
+    "main.8b68cfd1.js.map": "/static/js/main.8b68cfd1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8ad1a287.css",
+    "static/js/main.8b68cfd1.js"
+  ]
+}
