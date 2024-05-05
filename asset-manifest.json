@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/beastleague_app/static/css/main.870f4d5d.css",
-    "main.js": "/beastleague_app/static/js/main.01d6f1bc.js",
+    "main.css": "/beastleague_app/static/css/main.3571eaf3.css",
+    "main.js": "/beastleague_app/static/js/main.3169e8f8.js",
     "static/media/logo_icon.png": "/beastleague_app/static/media/logo_icon.82b4af347d6a1642a1ab.png",
     "static/media/user_icon.png": "/beastleague_app/static/media/user_icon.828c5e748d8a20bf85f0.png",
     "index.html": "/beastleague_app/index.html",
-    "main.870f4d5d.css.map": "/beastleague_app/static/css/main.870f4d5d.css.map",
-    "main.01d6f1bc.js.map": "/beastleague_app/static/js/main.01d6f1bc.js.map"
+    "main.3571eaf3.css.map": "/beastleague_app/static/css/main.3571eaf3.css.map",
+    "main.3169e8f8.js.map": "/beastleague_app/static/js/main.3169e8f8.js.map"
   },
   "entrypoints": [
-    "static/css/main.870f4d5d.css",
-    "static/js/main.01d6f1bc.js"
+    "static/css/main.3571eaf3.css",
+    "static/js/main.3169e8f8.js"
   ]
 }
