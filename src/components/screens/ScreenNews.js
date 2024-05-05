@@ -14,8 +14,10 @@ const ScreenNews = () => {
       <div>
         <NavSub>
           <ul className="sub_nav_ul">
-            {newsArr.map((s) => (
-              <li className={s.hovered ? "active_link" : ""}>{s.task}</li>
+            {newsArr.map((s, i) => (
+              <li key={i} className={s.hovered ? "active_link" : ""}>
+                {s.task}
+              </li>
             ))}
           </ul>
         </NavSub>

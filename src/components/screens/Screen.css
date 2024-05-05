@@ -2,7 +2,6 @@
   width: 100%;
   height: calc(100% - 10rem);
   overflow-x: hidden;
-  overflow-y: scroll;
   background-color: #0f0f0f;
   -ms-overflow-style: none; /* Internet Explorer 10+ */
   scrollbar-width: none; /* Firefox */
@@ -11,6 +10,15 @@
 
 .screen_container::-webkit-scrollbar {
   display: none; /* Safari and Chrome */
+}
+
+.screen_container_pages {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 @media only screen and (min-width: 1200px) {

@@ -15,8 +15,10 @@ const ScreenHome = () => {
       <div>
         <NavSub>
           <ul className="sub_nav_ul">
-            {homeArr.map((s) => (
-              <li className={s.hovered ? "active_link" : ""}>{s.task}</li>
+            {homeArr.map((s, i) => (
+              <li key={i} className={s.hovered ? "active_link" : ""}>
+                {s.task}
+              </li>
             ))}
           </ul>
         </NavSub>

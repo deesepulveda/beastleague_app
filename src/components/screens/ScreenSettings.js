@@ -15,8 +15,10 @@ const ScreenSettings = () => {
       <div>
         <NavSub>
           <ul className="sub_nav_ul">
-            {settingsArr.map((s) => (
-              <li className={s.hovered ? "active_link" : ""}>{s.task}</li>
+            {settingsArr.map((s, i) => (
+              <li key={i} className={s.hovered ? "active_link" : ""}>
+                {s.task}
+              </li>
             ))}
           </ul>
         </NavSub>

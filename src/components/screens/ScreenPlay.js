@@ -14,8 +14,10 @@ const ScreenPlay = () => {
       <div>
         <NavSub>
           <ul className="sub_nav_ul">
-            {playArr.map((s) => (
-              <li className={s.hovered ? "active_link" : ""}>{s.task}</li>
+            {playArr.map((s, i) => (
+              <li key={i} className={s.hovered ? "active_link" : ""}>
+                {s.task}
+              </li>
             ))}
           </ul>
         </NavSub>

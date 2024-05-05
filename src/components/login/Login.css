@@ -63,3 +63,9 @@
     padding-right: 1rem;
   }
 }
+
+@media only screen and (min-width: 1920px) {
+  .login_container {
+    height: 50%;
+  }
+}

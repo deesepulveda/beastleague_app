@@ -18,16 +18,29 @@ const sportsArr = [
 
 const ScreenScores = () => {
   return (
-    <div>
-      <div>
-        <NavSub>
-          <ul className="sub_nav_ul">
-            {sportsArr.map((s) => (
-              <li className={s.hovered ? "active_link" : ""}>{s.league}</li>
-            ))}
-          </ul>
-        </NavSub>
+    <div className="screen_container_pages">
+      <NavSub>
+        <ul className="sub_nav_ul">
+          {sportsArr.map((s, i) => (
+            <li key={i} className={s.hovered ? "active_link" : ""}>
+              {s.league}
+            </li>
+          ))}
+        </ul>
+      </NavSub>
+      <div className="score_card_container">
+        {Array.from({ length: 15 }, (_, i) => i + 1).map((card, i) => (
+          <ScoreCard key={i} title={card} />
+        ))}
       </div>
+    </div>
+  );
+};
+
+const ScoreCard = ({ title }) => {
+  return (
+    <div className="card_box">
+      <div className="card_box_inner">{title}</div>
     </div>
   );
 };
