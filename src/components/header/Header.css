@@ -1,16 +1,22 @@
-.header {
+.header_container {
   width: 100%;
-  height: 3.5rem;
+  height: 10rem;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-tracks: center;
+  background-color: #0f0f0f;
 }
 
-.header_logo_icon,
-.header_login_icon {
-  width: 20%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+@media only screen and (min-width: 1280px) {
+  .header_container {
+    max-width: 120rem;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  .header_container {
+    height: 12rem;
+  }
 }

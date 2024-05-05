@@ -1,18 +1,13 @@
 import React from "react";
-import "../App.css";
 import "./Header.css";
+import NavMain from "../nav/NavMain";
+import Login from "../login/Login";
 
-const Header = ({ darkMode }) => {
+const Header = () => {
   return (
-    <div
-      className={
-        darkMode
-          ? "header background_dark_mode_softBlack"
-          : "header background_light_mode_softGray"
-      }
-    >
-      <div className="header_logo_icon">Logo</div>
-      <div className="header_login_icon">Login</div>
+    <div className="header_container">
+      <Login />
+      <NavMain />
     </div>
   );
 };

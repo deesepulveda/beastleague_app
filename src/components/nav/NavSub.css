@@ -1,33 +1,60 @@
 .nav_sub_container {
   width: 100%;
-  height: 3.35rem;
+  height: 3rem;
+  background-color: #000;
 }
 
-.nav_sub_container_ul {
+.sub_nav_ul {
   width: 100%;
   height: 100%;
+  padding: 0 1.5rem;
   display: flex;
   justify-content: start;
   align-items: center;
   overflow-x: scroll;
-  color: #fff;
-  background-color: #000;
   -ms-overflow-style: none; /* Internet Explorer 10+ */
   scrollbar-width: none; /* Firefox */
 }
 
-.nav_sub_container_ul::-webkit-scrollbar {
+.sub_nav_ul::-webkit-scrollbar {
   display: none; /* Safari and Chrome */
 }
 
-.nav_sub_container_ul > li {
+.sub_nav_ul > li {
   width: auto;
   height: 100%;
-  margin: 0 1.5rem;
   list-style-type: none;
-  font-size: 1.25rem;
-  white-space: nowrap;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 0 1.5rem;
+  text-shadow: 0.1rem 0.1rem 0.2rem gray;
+}
+
+.sub_nav_ul > li.active_link {
+  color: #000;
+  font-weight: 700;
+  background-color: #fff;
+}
+
+@media only screen and (min-width: 768px) {
+  .sub_nav_ul {
+    width: 85%;
+    margin: 0 auto;
+    overflow-x: hidden;
+    justify-content: center;
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .nav_sub_container {
+    height: 5rem;
+  }
+
+  .sub_nav_ul > li {
+    font-size: 1.3rem;
+    padding: 0 2rem;
+    cursor: pointer;
+  }
 }

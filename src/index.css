@@ -7,19 +7,19 @@
 }
 
 html {
-  height: -webkit-fill-available;
   font-size: 62.5%; /*Equivalent to 10px*/
   scroll-behavior: smooth;
-  border: 1px solid red;
+  /* border: 1px solid green; */
 }
 
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: #fff;
   text-align: center;
   text-transform: uppercase;
   font-family: "Montserrat", sans-serif;
   overflow-x: hidden;
-  height: -webkit-fill-available;
+  background-color: #000;
 }
