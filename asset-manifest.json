@@ -1,24 +1,15 @@
 {
   "files": {
-    "main.css": "/beastleague_app/static/css/main.8ad1a287.css",
-    "main.js": "/beastleague_app/static/js/main.05c993e6.js",
-    "static/media/user_icon.png": "/beastleague_app/static/media/user_icon.83db0ea8c00bed107ddb.png",
-    "static/media/home_icon_dark.png": "/beastleague_app/static/media/home_icon_dark.ff11c1735eff10bc9c82.png",
-    "static/media/news_icon_dark.png": "/beastleague_app/static/media/news_icon_dark.0bbae1d9b77b116ed9b1.png",
-    "static/media/scores_icon_dark.png": "/beastleague_app/static/media/scores_icon_dark.4875fa01ed61172712f6.png",
-    "static/media/play_icon_dark.png": "/beastleague_app/static/media/play_icon_dark.66a7883043a4e01d075b.png",
-    "static/media/news_icon.png": "/beastleague_app/static/media/news_icon.c8eb482f02a98681f89f.png",
-    "static/media/play_icon.png": "/beastleague_app/static/media/play_icon.63dc5bae22d25a924015.png",
-    "static/media/home_icon.png": "/beastleague_app/static/media/home_icon.a598dd725efd473e2bb8.png",
-    "static/media/settings_icon_dark.png": "/beastleague_app/static/media/settings_icon_dark.f5c40802bb45e4d4e95a.png",
-    "static/media/scores_icon.png": "/beastleague_app/static/media/scores_icon.94388333666327a8cf12.png",
-    "static/media/settings_icon.png": "/beastleague_app/static/media/settings_icon.d9633ef00090e76a5753.png",
+    "main.css": "/beastleague_app/static/css/main.870f4d5d.css",
+    "main.js": "/beastleague_app/static/js/main.01d6f1bc.js",
+    "static/media/logo_icon.png": "/beastleague_app/static/media/logo_icon.82b4af347d6a1642a1ab.png",
+    "static/media/user_icon.png": "/beastleague_app/static/media/user_icon.828c5e748d8a20bf85f0.png",
     "index.html": "/beastleague_app/index.html",
-    "main.8ad1a287.css.map": "/beastleague_app/static/css/main.8ad1a287.css.map",
-    "main.05c993e6.js.map": "/beastleague_app/static/js/main.05c993e6.js.map"
+    "main.870f4d5d.css.map": "/beastleague_app/static/css/main.870f4d5d.css.map",
+    "main.01d6f1bc.js.map": "/beastleague_app/static/js/main.01d6f1bc.js.map"
   },
   "entrypoints": [
-    "static/css/main.8ad1a287.css",
-    "static/js/main.05c993e6.js"
+    "static/css/main.870f4d5d.css",
+    "static/js/main.01d6f1bc.js"
   ]
 }
