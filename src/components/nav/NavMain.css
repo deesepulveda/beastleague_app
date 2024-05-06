@@ -1,6 +1,6 @@
 .nav_main_container {
   width: 90%;
-  height: 40%;
+  height: 4rem;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -40,7 +40,7 @@
 
 @media only screen and (min-width: 1920px) {
   .nav_main_container {
-    height: 50%;
+    height: 7rem;
   }
 
   .nav_main_container > a {

@@ -1,6 +1,6 @@
 .login_container {
   width: 90%;
-  height: 60%;
+  height: 6rem;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -66,6 +66,6 @@
 
 @media only screen and (min-width: 1920px) {
   .login_container {
-    height: 50%;
+    height: 7rem;
   }
 }

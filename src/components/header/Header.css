@@ -1,11 +1,12 @@
 .header_container {
   width: 100%;
-  height: 10rem;
+  height: 13rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-tracks: center;
   background-color: #222121;
+  z-index: 100;
 }
 
 @media only screen and (min-width: 768px) {
@@ -18,12 +19,7 @@
 @media only screen and (min-width: 1200px) {
   .header_container {
     max-width: 120rem;
+    height: 18rem;
     margin: 0 auto;
-  }
-}
-
-@media only screen and (min-width: 1920px) {
-  .header_container {
-    height: 14rem;
   }
 }

@@ -1,6 +1,6 @@
 .screen_container {
   width: 100%;
-  height: calc(100% - 10rem);
+  height: calc(100% - 13rem);
   overflow-x: hidden;
   background-color: #222121;
   -ms-overflow-style: none; /* Internet Explorer 10+ */
@@ -19,7 +19,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  position: relative;
 }
 
 @media only screen and (min-width: 1200px) {

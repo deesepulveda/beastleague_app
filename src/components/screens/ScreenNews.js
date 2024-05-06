@@ -1,18 +1,18 @@
 import React from "react";
-import NavSub from "../nav/NavSub";
+// import NavSub from "../nav/NavSub";
 import "./ScreenNews.css";
 
-const newsArr = [
-  { task: "recent", hovered: true },
-  { task: "media", hovered: false },
-  { task: "following", hovered: false },
-  { task: "misc", hovered: false },
-];
+// const newsArr = [
+//   { task: "recent", hovered: true },
+//   { task: "media", hovered: false },
+//   { task: "following", hovered: false },
+//   { task: "misc", hovered: false },
+// ];
 
 const ScreenNews = () => {
   return (
     <div className="screen_container_pages">
-      <NavSub>
+      {/* <NavSub>
         <ul className="sub_nav_ul">
           {newsArr.map((s, i) => (
             <li key={i} className={s.hovered ? "active_link" : ""}>
@@ -20,7 +20,7 @@ const ScreenNews = () => {
             </li>
           ))}
         </ul>
-      </NavSub>
+      </NavSub> */}
       <div className="news_container_content">
         <NewsCard name="calebwilliams" />
         <NewsCard name="shoheiohtani" />
