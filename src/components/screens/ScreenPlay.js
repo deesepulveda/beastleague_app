@@ -22,7 +22,9 @@ const ScreenPlay = () => {
           </ul>
         </NavSub>
       </div>
-      <h2>Log In to View</h2>
+      <p style={{ fontSize: "1.75rem", marginTop: "5rem" }}>
+        Sign Up or Log In to View/Access
+      </p>
     </div>
   );
 };

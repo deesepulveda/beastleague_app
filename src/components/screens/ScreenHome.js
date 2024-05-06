@@ -2,8 +2,8 @@ import React from "react";
 import NavSub from "../nav/NavSub";
 
 const homeArr = [
-  { task: "avatar", hovered: false },
-  { task: "favorites", hovered: true },
+  { task: "avatar", hovered: true },
+  { task: "favorites", hovered: false },
   { task: "learn", hovered: false },
   { task: "friends", hovered: false },
   { task: "misc", hovered: false },
@@ -23,7 +23,9 @@ const ScreenHome = () => {
           </ul>
         </NavSub>
       </div>
-      <h2>Log In to View</h2>
+      <p style={{ fontSize: "1.75rem", marginTop: "5rem" }}>
+        Sign Up or Log In to View/Access
+      </p>
     </div>
   );
 };

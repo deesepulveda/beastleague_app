@@ -1,5 +1,6 @@
 import React from "react";
 import NavSub from "../nav/NavSub";
+import "./ScreenNews.css";
 
 const newsArr = [
   { task: "recent", hovered: true },
@@ -10,19 +11,35 @@ const newsArr = [
 
 const ScreenNews = () => {
   return (
-    <div>
-      <div>
-        <NavSub>
-          <ul className="sub_nav_ul">
-            {newsArr.map((s, i) => (
-              <li key={i} className={s.hovered ? "active_link" : ""}>
-                {s.task}
-              </li>
-            ))}
-          </ul>
-        </NavSub>
+    <div className="screen_container_pages">
+      <NavSub>
+        <ul className="sub_nav_ul">
+          {newsArr.map((s, i) => (
+            <li key={i} className={s.hovered ? "active_link" : ""}>
+              {s.task}
+            </li>
+          ))}
+        </ul>
+      </NavSub>
+      <div className="news_container_content">
+        <NewsCard name="calebwilliams" />
+        <NewsCard name="shoheiohtani" />
+        <NewsCard name="justinsteele" />
+        <NewsCard name="romeodunze" />
+        <NewsCard name="calebwilliams" />
+        <NewsCard name="justinsteele" />
+        <NewsCard name="shoheiohtani" />
       </div>
-      <h1>News</h1>
+    </div>
+  );
+};
+
+const NewsCard = ({ name }) => {
+  return (
+    <div className="news_card_box">
+      <div className="news_card_inner_content">
+        <img src={require(`../../assets/${name}.jpg`)} alt="" />
+      </div>
     </div>
   );
 };

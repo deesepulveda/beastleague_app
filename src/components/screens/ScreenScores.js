@@ -3,17 +3,17 @@ import "./ScreenScores.css";
 import NavSub from "../nav/NavSub";
 
 const sportsArr = [
-  { league: "mlb", hovered: true },
-  { league: "nfl", hovered: false },
-  { league: "nba", hovered: false },
-  { league: "nhl", hovered: false },
-  { league: "mls", hovered: false },
-  { league: "ncaaf", hovered: false },
-  { league: "ncaab", hovered: false },
-  { league: "pga", hovered: false },
-  { league: "ufc", hovered: false },
-  { league: "nascar", hovered: false },
-  { league: "f1", hovered: false },
+  { type: "mlb", hovered: true },
+  { type: "nfl", hovered: false },
+  { type: "nba", hovered: false },
+  { type: "nhl", hovered: false },
+  { type: "mls", hovered: false },
+  { type: "ncaaf", hovered: false },
+  { type: "ncaab", hovered: false },
+  { type: "pga", hovered: false },
+  { type: "ufc", hovered: false },
+  { type: "nascar", hovered: false },
+  { type: "f1", hovered: false },
 ];
 
 const ScreenScores = () => {
@@ -23,7 +23,7 @@ const ScreenScores = () => {
         <ul className="sub_nav_ul">
           {sportsArr.map((s, i) => (
             <li key={i} className={s.hovered ? "active_link" : ""}>
-              {s.league}
+              {s.type}
             </li>
           ))}
         </ul>
