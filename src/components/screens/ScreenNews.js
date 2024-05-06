@@ -38,7 +38,9 @@ const NewsCard = ({ name }) => {
   return (
     <div className="news_card_box">
       <div className="news_card_inner_content">
-        <img src={require(`../../assets/${name}.jpg`)} alt="" />
+        <div className="news_card_inner_content_image_box">
+          <img src={require(`../../assets/${name}.jpg`)} alt="" />
+        </div>
       </div>
     </div>
   );

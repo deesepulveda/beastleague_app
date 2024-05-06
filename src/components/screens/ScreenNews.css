@@ -18,7 +18,18 @@
   height: 100%;
 }
 
-.news_card_inner_content > img {
+.news_card_inner_content_image_box {
+  width: 100%;
+  height: 100%;
+  border-radius: 2rem;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
+  box-shadow: 0.5rem 0.5rem 0.8rem #0000005e;
+}
+
+.news_card_inner_content_image_box > img {
   width: 100%;
   height: 100%;
   object-fit: cover;
