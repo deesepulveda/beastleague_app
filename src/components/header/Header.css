@@ -5,8 +5,9 @@
   flex-direction: column;
   justify-content: center;
   align-tracks: center;
-  background-color: #222121;
+  background-color: #151515;
   z-index: 100;
+  box-shadow: 0rem 1rem 1rem #000000b8;
 }
 
 @media only screen and (min-width: 768px) {

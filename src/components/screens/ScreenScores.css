@@ -10,7 +10,7 @@
 
 .card_box {
   width: 100%;
-  height: 10rem;
+  height: 12rem;
   padding: 0.5rem 1rem;
 }
 
@@ -18,12 +18,65 @@
   width: 100%;
   height: 100%;
   margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border: 0.1rem solid #fff;
   border-radius: 2rem;
   -webkit-border-radius: 2rem;
   -moz-border-radius: 2rem;
   -ms-border-radius: 2rem;
   -o-border-radius: 2rem;
+}
+
+.card_box:nth-child(1) > .card_box_inner {
+  background-color: #00000096;
+  border: none;
+}
+
+.card_box_inner_content_teams {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card_box_inner_content_divider {
+  width: 90%;
+  height: 0.1rem;
+  background-color: #fff;
+}
+
+.card_box_inner_content_visitor,
+.card_box_inner_content_home {
+  width: 100%;
+  height: calc(100% / 2);
+  padding-left: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-tracks: center;
+}
+
+.inner_content_teams {
+  display: flex;
+}
+
+.inner_content_teams > p {
+  margin-left: 1rem;
+  text-transform: capitalize;
+}
+
+.card_box_inner_content_schedule {
+  width: 40%;
+  height: 100%;
+  padding-left: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
 }
 
 @media only screen and (min-width: 768px) {

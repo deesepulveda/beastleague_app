@@ -1,46 +1,38 @@
 import React from "react";
-// import NavSub from "../nav/NavSub";
 import "./ScreenNews.css";
 
-// const newsArr = [
-//   { task: "recent", hovered: true },
-//   { task: "media", hovered: false },
-//   { task: "following", hovered: false },
-//   { task: "misc", hovered: false },
-// ];
+const playersArr = [
+  { type: "nfl", player: "calebwilliams" },
+  { type: "mlb", player: "justinsteele" },
+  { type: "nfl", player: "romeodunze" },
+  { type: "nba", player: "lonzoball" },
+  { type: "mlb", player: "shotaimanaga" },
+  { type: "nhl", player: "connorbedard" },
+  { type: "ufc", player: "islammakhachev" },
+  { type: "nhl", player: "lionelmessi" },
+  { type: "mlb", player: "shoheiohtani" },
+];
 
 const ScreenNews = () => {
   return (
     <div className="screen_container_pages">
-      {/* <NavSub>
-        <ul className="sub_nav_ul">
-          {newsArr.map((s, i) => (
-            <li key={i} className={s.hovered ? "active_link" : ""}>
-              {s.task}
-            </li>
-          ))}
-        </ul>
-      </NavSub> */}
       <div className="news_container_content">
-        <NewsCard name="calebwilliams" />
-        <NewsCard name="shoheiohtani" />
-        <NewsCard name="justinsteele" />
-        <NewsCard name="romeodunze" />
-        <NewsCard name="calebwilliams" />
-        <NewsCard name="justinsteele" />
-        <NewsCard name="shoheiohtani" />
+        {playersArr.map((p, i) => (
+          <NewsCard key={i} name={p.player} title={p.type} />
+        ))}
       </div>
     </div>
   );
 };
 
-const NewsCard = ({ name }) => {
+const NewsCard = ({ name, title }) => {
   return (
     <div className="news_card_box">
       <div className="news_card_inner_content">
         <div className="news_card_inner_content_image_box">
           <img src={require(`../../assets/${name}.jpg`)} alt="" />
         </div>
+        <div className="news_card_inner_content_title">{title}</div>
       </div>
     </div>
   );

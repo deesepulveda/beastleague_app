@@ -12,8 +12,8 @@ const newsArr = [
 ];
 
 const scoresArr = [
-  { type: "mlb", hovered: true },
-  { type: "nfl", hovered: false },
+  { type: "mlb", hovered: false },
+  { type: "nfl", hovered: true },
   { type: "nba", hovered: false },
   { type: "nhl", hovered: false },
   { type: "mls", hovered: false },

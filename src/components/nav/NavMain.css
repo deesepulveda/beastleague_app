@@ -16,6 +16,7 @@
   -moz-transition: all 0.3s;
   -ms-transition: all 0.3s;
   -o-transition: all 0.3s;
+  text-shadow: 0.1rem 0.1rem 0.2rem rgb(27, 27, 27);
 }
 
 .nav_main_container > a.active {

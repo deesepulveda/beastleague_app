@@ -24,15 +24,27 @@
 }
 
 .logo_box {
-  width: 10rem;
+  width: 5rem;
   height: 100%;
   display: flex;
   justify-content: start;
   align-items: center;
 }
 
+.account_status_container {
+  width: calc(100% - 10rem);
+  height: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.account_status_container > p {
+  font-size: 1.2rem;
+}
+
 .login_box {
-  width: 10rem;
+  width: 5rem;
   height: 100%;
   display: flex;
   justify-content: end;
@@ -56,10 +68,12 @@
   }
 
   .logo_box {
+    width: 8rem;
     padding-left: 1rem;
   }
 
   .login_box {
+    width: 8rem;
     padding-right: 1rem;
   }
 }
@@ -67,5 +81,13 @@
 @media only screen and (min-width: 1920px) {
   .login_container {
     height: 7rem;
+  }
+
+  .account_status_container {
+    width: calc(100% - 16rem);
+  }
+
+  .account_status_container > p {
+    font-size: 1.5rem;
   }
 }
