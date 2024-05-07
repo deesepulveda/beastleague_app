@@ -56,7 +56,7 @@ const ScoreCard = () => {
         <div className="card_box_inner_content_schedule">
           <p style={{ textTransform: "capitalize" }}>espn / fox sports</p>
           <p style={{ fontSize: "1.75rem", fontWeight: "600" }}>7:00 pm</p>
-          <p style={{ textTransform: "capitalize" }}>temp 78 deg / 5 wpm se</p>
+          <p style={{ textTransform: "capitalize" }}>temp 78 deg</p>
           <p style={{ textTransform: "capitalize" }}>soldier field</p>
         </div>
       </div>

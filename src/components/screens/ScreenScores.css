@@ -37,6 +37,7 @@
 .card_box_inner_content_teams {
   width: 60%;
   height: 100%;
+  padding-left: 0.75rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -53,7 +54,6 @@
 .card_box_inner_content_home {
   width: 100%;
   height: calc(100% / 2);
-  padding-left: 0.75rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -89,7 +89,17 @@
 
   .card_box {
     width: calc(100% / 2);
-    height: 18rem;
+    height: 15rem;
+    padding: 0.5rem;
+  }
+
+  .card_box_inner_content_teams {
+    width: 65%;
+    padding-left: 1rem;
+  }
+
+  .card_box_inner_content_schedule {
+    width: 35%;
   }
 }
 
