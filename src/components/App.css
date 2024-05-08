@@ -3,12 +3,6 @@
   height: auto;
   text-align: center;
   background-color: #000;
-  -ms-overflow-style: none; /* Internet Explorer 10+ */
-  scrollbar-width: none; /* Firefox */
-}
-
-.app::-webkit-scrollbar {
-  display: none; /* Safari and Chrome */
 }
 
 /* @media only screen and (min-width: 1200px) {

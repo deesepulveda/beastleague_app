@@ -1,6 +1,6 @@
 .screen_container {
   width: 100%;
-  min-height: 100vh;
+  min-height: calc(100vh - 13rem);
   overflow-x: hidden;
   background-color: #191919;
   -ms-overflow-style: none; /* Internet Explorer 10+ */
