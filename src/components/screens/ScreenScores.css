@@ -18,26 +18,23 @@
   width: 100%;
   height: 100%;
   margin: 0 auto;
+  /* padding: 1rem; */
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 0.1rem solid #fff;
+  background-color: #00000096;
   border-radius: 2rem;
   -webkit-border-radius: 2rem;
   -moz-border-radius: 2rem;
   -ms-border-radius: 2rem;
   -o-border-radius: 2rem;
-}
-
-.card_box:nth-child(1) > .card_box_inner {
-  background-color: #00000096;
-  border: none;
+  box-shadow: 0.3rem 0.3rem 0.5rem rgba(11, 11, 11, 0.583);
 }
 
 .card_box_inner_content_teams {
-  width: 60%;
+  width: 70%;
   height: 100%;
-  padding-left: 0.75rem;
+  padding-left: 1.5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -57,7 +54,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-tracks: center;
+  align-items: start;
 }
 
 .inner_content_teams {
@@ -70,7 +67,7 @@
 }
 
 .card_box_inner_content_schedule {
-  width: 40%;
+  width: 30%;
   height: 100%;
   padding-left: 1.5rem;
   display: flex;
@@ -93,14 +90,9 @@
     padding: 0.5rem;
   }
 
-  .card_box_inner_content_teams {
-    width: 65%;
+  /* .card_box_inner_content_teams {
     padding-left: 1rem;
-  }
-
-  .card_box_inner_content_schedule {
-    width: 35%;
-  }
+  } */
 }
 
 @media only screen and (min-width: 1200px) {

@@ -23,7 +23,7 @@ const ScoreCard = () => {
               <p style={{ fontSize: "1.25rem", fontWeight: "600" }}>packers</p>
               <p>(2 - 2)</p>
               <p style={{ color: "green", fontWeight: "800" }}>
-                +3.5 / -150 / 42.5 o/u
+                +3.5, -150, O/U 42.5
               </p>
             </div>
             <div className="card_box_inner_content_visitor_bottom inner_content_teams">
@@ -44,7 +44,7 @@ const ScoreCard = () => {
               </p>
               <p>(2 - 2)</p>
               <p style={{ color: "green", fontWeight: "800" }}>
-                -3.5 / +150 / 42.5 o/u
+                -3.5, +150, O/U 42.5
               </p>
             </div>
             <div className="card_box_inner_content_home_bottom inner_content_teams">
@@ -54,7 +54,7 @@ const ScoreCard = () => {
           </div>
         </div>
         <div className="card_box_inner_content_schedule">
-          <p style={{ textTransform: "capitalize" }}>espn / fox sports</p>
+          <p style={{ textTransform: "capitalize" }}>espn / fox</p>
           <p style={{ fontSize: "1.75rem", fontWeight: "600" }}>7:00 pm</p>
           <p style={{ textTransform: "capitalize" }}>temp 78 deg</p>
           <p style={{ textTransform: "capitalize" }}>soldier field</p>

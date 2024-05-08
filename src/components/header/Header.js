@@ -49,7 +49,7 @@ const settingsArr = [
 ];
 
 const Header = () => {
-  const [showArr, setShowArr] = useState([]);
+  const [showArr, setShowArr] = useState(scoresArr);
 
   const onActiveLink = (e) => {
     let curVal = e.currentTarget.textContent;

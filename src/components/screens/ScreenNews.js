@@ -9,7 +9,7 @@ const playersArr = [
   { type: "mlb", player: "shotaimanaga" },
   { type: "nhl", player: "connorbedard" },
   { type: "ufc", player: "islammakhachev" },
-  { type: "nhl", player: "lionelmessi" },
+  { type: "mls", player: "lionelmessi" },
   { type: "mlb", player: "shoheiohtani" },
 ];
 
