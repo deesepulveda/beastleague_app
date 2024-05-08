@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/beastleague_app/static/css/main.b2a700ae.css",
-    "main.js": "/beastleague_app/static/js/main.39cf4908.js",
+    "main.css": "/beastleague_app/static/css/main.c383fa2f.css",
+    "main.js": "/beastleague_app/static/js/main.8d50964f.js",
     "static/media/shoheiohtani.jpg": "/beastleague_app/static/media/shoheiohtani.fcb8f512dac05b795d25.jpg",
     "static/media/lonzoball.jpg": "/beastleague_app/static/media/lonzoball.b4d94d58a600db1a6a76.jpg",
     "static/media/calebwilliams.jpg": "/beastleague_app/static/media/calebwilliams.4e47a1d9a8ec03c91d3d.jpg",
@@ -14,11 +14,11 @@
     "static/media/lionelmessi.jpg": "/beastleague_app/static/media/lionelmessi.5edc04b7dc6c0043d712.jpg",
     "static/media/romeodunze.jpg": "/beastleague_app/static/media/romeodunze.845170442644cd49afb1.jpg",
     "index.html": "/beastleague_app/index.html",
-    "main.b2a700ae.css.map": "/beastleague_app/static/css/main.b2a700ae.css.map",
-    "main.39cf4908.js.map": "/beastleague_app/static/js/main.39cf4908.js.map"
+    "main.c383fa2f.css.map": "/beastleague_app/static/css/main.c383fa2f.css.map",
+    "main.8d50964f.js.map": "/beastleague_app/static/js/main.8d50964f.js.map"
   },
   "entrypoints": [
-    "static/css/main.b2a700ae.css",
-    "static/js/main.39cf4908.js"
+    "static/css/main.c383fa2f.css",
+    "static/js/main.8d50964f.js"
   ]
 }
