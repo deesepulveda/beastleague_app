@@ -3,6 +3,7 @@ import "./Header.css";
 import NavMain from "../nav/NavMain";
 import Login from "../login/Login";
 import NavSub from "../nav/NavSub";
+import LoginModal from "../modals/LoginModal";
 
 const newsArr = [
   { type: "recent", hovered: true },
@@ -50,6 +51,7 @@ const settingsArr = [
 
 const Header = () => {
   const [showArr, setShowArr] = useState(scoresArr);
+  const [showModal, setShowModal] = useState(false);
 
   const onActiveLink = (e) => {
     let curVal = e.currentTarget.textContent;
@@ -71,11 +73,16 @@ const Header = () => {
     }
   };
 
+  const onShowModal = (e) => {
+    setShowModal(!showModal);
+  };
+
   return (
     <div className="header_container">
-      <Login />
+      <Login onShowModal={onShowModal} />
       <NavMain onActiveLink={onActiveLink} />
       <NavSub showArr={showArr} />
+      {showModal && <LoginModal onShowModal={onShowModal} />}
     </div>
   );
 };

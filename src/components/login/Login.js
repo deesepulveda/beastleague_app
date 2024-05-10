@@ -1,14 +1,14 @@
 import React from "react";
 import "./Login.css";
 
-const Login = () => {
+const Login = ({ onShowModal }) => {
   return (
     <div className="login_container">
       <div className="logo_box">
         <img src={require("../../assets/logo_icon.png")} alt="" />
       </div>
       <AccountStatus />
-      <div className="login_box">
+      <div className="login_box" onClick={onShowModal}>
         <img src={require("../../assets/user_icon.png")} alt="" />
       </div>
     </div>

@@ -29,6 +29,7 @@
   display: flex;
   justify-content: start;
   align-items: center;
+  z-index: 101;
 }
 
 .account_status_container {
@@ -49,6 +50,7 @@
   display: flex;
   justify-content: end;
   align-items: center;
+  z-index: 101;
 }
 
 .login_box > img,
@@ -56,6 +58,7 @@
   width: auto;
   height: 50%;
   object-fit: contain;
+  cursor: pointer;
 }
 
 @media only screen and (min-width: 1200px) {

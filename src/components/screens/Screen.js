@@ -11,8 +11,8 @@ const Screen = () => {
   return (
     <div className="screen_container">
       <Routes>
-        <Route path="/" element={<ScreenScores />} />
         <Route path="/home" element={<ScreenHome />} />
+        <Route path="/" element={<ScreenScores />} />
         <Route path="/news" element={<ScreenNews />} />
         <Route path="/play" element={<ScreenPlay />} />
         <Route path="/settings" element={<ScreenSettings />} />
